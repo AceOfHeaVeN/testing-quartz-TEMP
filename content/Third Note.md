@@ -2,4 +2,4 @@ up:: [[index]]
 
 This is my third note.
 
-Check my [[First Note]] and [[Second Note]].
+Check my [[First Note]], [[Second Note]], [[Fourth Note]], and [[Fifth Note]].

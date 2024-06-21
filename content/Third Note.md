@@ -1,3 +1,10 @@
+---
+title: Third Note
+draft: false
+enableToc: true
+---
+
+
 up:: [[index]]
 
 This is my third note.

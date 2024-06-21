@@ -1,3 +1,9 @@
+---
+title: First Note
+draft: false
+enableToc: true
+---
+
 up:: [[index]]
 
 This is my first Note.

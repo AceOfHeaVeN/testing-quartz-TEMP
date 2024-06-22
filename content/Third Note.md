@@ -3,15 +3,11 @@ title: Third Note
 draft: false
 enableToc: true
 ---
-
-
 up:: [[index]]
 
 This is my third note.
 
 Check my [[First Note]], [[Second Note]], [[Fourth Note]], and [[Fifth Note]].
-
-
 
 # Header 1 - Third
 

@@ -3,14 +3,11 @@ title: First Note
 draft: false
 enableToc: true
 ---
-
-
 up:: [[index]]
 
 This is my first Note.
 
 Check my [[Second Note]], [[Third Note]], [[Fourth Note]], and [[Fifth Note]].
-
 
 # Header 1 - First
 

@@ -9,8 +9,6 @@ This is my second note.
 
 Check my [[First Note]], [[Third Note]], [[Fourth Note]], and [[Fifth Note]].
 
-
-
 # Header 1 - Second
 
 This is my first header.

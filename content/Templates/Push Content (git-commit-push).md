@@ -11,10 +11,11 @@ try {
     execSync("git add .", { cwd: gitRoot });
     execSync(`git commit -m "${commitMessage}"`, { cwd: gitRoot });
     execSync("git push", { cwd: gitRoot });
-    // Logging for verification in console (not added to the note)
-    console.log("Changes committed and pushed successfully.");
+    // Display a notification in Obsidian
+    app.workspace.trigger("file-open", { path: "Updating Notes" });
+    new Notice("Notes updated successfully.");
 } catch (error) {
+    new Notice(`Error: ${error.toString()}`, 5000); // Display error message for 5 seconds
     console.error(`Error: ${error.toString()}`);
 }
 %>
-

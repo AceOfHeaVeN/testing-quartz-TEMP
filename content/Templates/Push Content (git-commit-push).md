@@ -1,18 +1,19 @@
 <%*
 const { execSync } = require('child_process');
-const commitMessage = await tp.system.prompt("Enter commit message");
 
 // Define the root directory of your Git repository
 const gitRoot = "C:/Users/AceOfHeaVeN/OneDrive/Desktop/Programming Projects/quartz";
 
+// Define a default commit message
+const commitMessage = "Update notes";
+
 try {
     execSync("git add .", { cwd: gitRoot });
-    const commitResult = execSync(`git commit -m "${commitMessage}"`, { cwd: gitRoot });
-    const pushResult = execSync("git push", { cwd: gitRoot });
-    tR += `Commit Result: ${commitResult.toString()}\n`;
-    tR += `Push Result: ${pushResult.toString()}\n`;
-    tR += "Changes committed and pushed successfully.";
+    execSync(`git commit -m "${commitMessage}"`, { cwd: gitRoot });
+    execSync("git push", { cwd: gitRoot });
+    // Logging for verification in console (not added to the note)
+    console.log("Changes committed and pushed successfully.");
 } catch (error) {
-    tR += `Error: ${error.toString()}\n`;
+    console.error(`Error: ${error.toString()}`);
 }
 %>
